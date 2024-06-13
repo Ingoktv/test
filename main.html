@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>Document</title>
+</head>
+
+
+<body>
+    <div>
+        <br>
+        <div class="btn">
+            <form action="">
+                <h1>Calculator</h1>
+                <p>ป้อนตัวเลขที่ 1 :: <input type="text" id="num1" placeholder="Input your number"></p>
+                <p>ป้อนตัวเลขที่ 2 :: <input type="text" id="num2" placeholder="Input your number"></p>
+
+
+                <input type="button" value="+" onclick="cal()">
+                <input type="button" value="-" onclick="del()">
+                <input type="button" value="*" onclick="vel()">
+                <input type="button" value="÷" onclick="tel()">
+                <input type="button" value="%" onclick="kel()">
+               
+                <button data-all-clear>Reset</button>
+
+
+                <div class="fn">
+                    <p type="resest" id="result">xxx</p>
+                </div>
+            </form>
+            <br>
+           
+            <!-- <hr> -->
+        </div>
+        <br>
+        <div>
+            <div class="btn">
+                <form action="">
+                    <h1>แปลงเงิน SGD เป็นเงินไทย</h1>
+                    <p><input type="text" id="cum1" placeholder="Input your number"> ค่าเงิน SGD</p>
+                    <input type="button" value="คำนวณ" onclick="cum()">
+                    <button data-all-clear>Reset</button>
+   
+                    <div class="fn">
+                        <p type="resest" id="result2">xxx</p>
+                    </div>
+                    <h1>แปลงเงินเงินไทย SGD </h1>
+                    <p><input type="text" id="cum2" placeholder="Input your number"> ค่าเงิน THB</p>
+                    <input type="button" value="คำนวณ" onclick="cuml()">
+                    <button data-all-clear>Reset</button>
+   
+                    <div class="fn">
+                       
+                        <p type="resest" id="result3">xxx</p>
+                        ข้อมูล ณ วันที่ Jun 12, 03:19 UTC
+                    </div>
+                </form>
+        </div>
+        <!-- <p>ผลบวก a + b + c + d =</p>
+        <p id="demo"></p>
+        <hr>
+        <p>ผลลบ a - b - c - d =</p>
+        <p id="demo2"></p>
+        <hr>
+        <p>ผลคูณ a * b * c * d =</p>
+        <p id="demo3"></p>
+        <hr>
+        <p>ผลหาร a / b / c / d =</p>
+        <p id="demo4"></p>
+        <hr>
+        <p>ผลหารเอาเศษ a % b % c % d =</p>
+        <p id="demo5"></p>
+        <hr>
+        <p>ผลยกกำลัง a ** b ** c ** d =</p>
+        <p id="demo6"></p> -->
+    </div>
+    <script src="main.js"></script>
+</body>
+
+
+</html>

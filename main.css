@@ -1,0 +1,44 @@
+body {
+    background: #000000;
+}
+.btn input[type=button] {
+    background: rgb(245, 255, 189);
+    border: solid 0px;
+    font-size: 25px;
+    padding: 25px;
+    border-radius: 26px;
+   
+}
+input[type=button]:hover {
+    background-color: #45a049;
+  }
+.btn {
+    padding: 50px;
+    text-align: center;
+    background: rgb(82, 82, 82);
+    width: 30%;
+    margin-left: 31.2%;
+    border-radius: 26px;
+    color: white;
+}
+.btn button{
+    background: rgb(255, 102, 0);
+    border: solid 0px;
+    font-size: 25px;
+    padding: 25px;
+    border-radius: 26px;
+   
+}
+.btn button:hover {
+    background-color: #863303;
+  }
+.btn input[type=text] {
+    border: none;
+    border-bottom: 2px solid rgb(245, 255, 189);
+     border-radius: 4px;
+     padding: 15px;
+}
+
+
+
+
